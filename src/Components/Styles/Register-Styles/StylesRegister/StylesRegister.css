@@ -1,0 +1,233 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+/* Styles LayoutRegister */
+.files {
+  margin-top: 9%;
+}
+
+.img-Logotype-Register {
+  width: 8rem;
+  height: 9rem;
+  margin-left: 2rem;
+} 
+
+.filesRegister input {
+  font-family: 'Poppins', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 80%;
+  border: 0;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.fileRegister input {
+  font-family: 'Poppins', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 80%;
+  border: 0;
+  margin: none;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.layoutRegister {
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  width: 50rem;
+  right: 5rem;
+  top: 4.5rem;
+}
+
+.selectDepart,
+.selectMuni {
+  font-family: 'Poppins', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 80%;
+  border: 0;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+.photos input {
+  margin-top: 14px;
+}
+
+.selectMuni {
+  margin-top: 11px;
+}
+
+.btnSubmirRecord {
+  border-radius: 25px;
+  border: none;
+  background-color: #ff5100;
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0.5rem 7rem;
+  cursor: pointer;
+  height: 40px;
+  width: 20%;
+  font-size: 15px;
+ 
+}
+
+.btnSubmirRecord:hover {
+  background-position: right;
+}
+
+div.register-line {
+  display: block;
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+  margin-left: 15rem;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 40%;
+}
+
+.prom {
+  display: none;
+}
+
+.redirectLogin {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ff5100;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.redirectLogin:hover {
+  font-size: none;
+}
+
+.terms {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: .3s;
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 12rem;
+}
+
+
+.termsRegister {
+  margin-top: 2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.termsAccep {
+  width: 100%;
+  margin-left: -112px;
+  margin-top: 10px;
+}
+
+.alertIcorrect,
+.alertIcorrects {
+  color: #fc7e43;
+  margin-top: 2px;
+  width: 80%;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Styles PageRegister */
+.line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #3331318c;
+  margin-top: 2px;
+}
+
+/* StyleHeaderRegister*/
+.registerImg {
+
+  width: 100%;
+  top: 25px;
+
+}
+
+.img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.registerTexts {
+  text-align: center;
+  width: 100%;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+  height: 47px;
+  background-color: #040404;
+}
+
+.textRegisters {
+  color: #f0f0f0;
+  font-size: 25px;
+}
+
+.textRegister {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.registerText {
+  text-align: center;
+  width: 34%;
+  top: 60rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 66rem;
+  height: 47px;
+  background-color: #040404;
+}
+
+
+/*Style UIMainRegister */
+.uiMainRegister {
+  display: grid;
+  grid-template-columns: 34% 50%;
+  column-gap: 14%;
+}
+
+/* Style UINavbarRegister */
+.uiNavbarRegister {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 8rem;
+
+  background-color: #ffffff;
+
+}
+
