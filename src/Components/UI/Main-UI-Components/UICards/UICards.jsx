@@ -89,29 +89,30 @@ export const UICards = ({
   );
   return (
     <>
+    <div className='container-card'>
       <div className="header-Card">
         <div className="iconInfo">
           <BsFillInfoCircleFill onClick={handleOpen} />
         </div>
         <h1>{typeProduct}</h1>
-        <div className="body-Card">
-          <div className="img-Card">
-            <img
-              src={imgProduct}
-              className="img-Card"
-              alt={nameProduct}
-            ></img>
-          </div>
-          <h2>{nameProduct}</h2>
-          <p>Estado: {conditionProduct}</p>
-          <div className="apply-Product">
-            <NavLink to="/LogIn">
-              <UIButtons
-                classButtons="btn-Apply"
-                nameButtons="Aplicar"
-              ></UIButtons>
-            </NavLink>
-          </div>
+      </div>
+      <div className="body-Card">
+        <div className="img-Card">
+          <img
+            src={imgProduct}
+            className="img-Card"
+            alt={nameProduct}
+          ></img>
+        </div>
+        <h2>{nameProduct}</h2>
+        <p>Estado: {conditionProduct}</p>
+        <div className="apply-Product">
+          <NavLink to="/LogIn">
+            <UIButtons
+              classButtons="btn-Apply"
+              nameButtons="Aplicar"
+            ></UIButtons>
+          </NavLink>
         </div>
       </div>
       <div>
@@ -119,6 +120,7 @@ export const UICards = ({
           {body}
         </Modal>
       </div>
+    </div>
     </>
   );
 };
