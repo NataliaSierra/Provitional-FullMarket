@@ -131,12 +131,13 @@
 }
 
 .container-card{
-  width: 25%;
+  width: 20%;
   min-width: 12rem;
   height: 100%;
   margin: 2rem;
   background-color: #ffffff;
-  transition: all 0.5s;
+  transition: all 0.2s;
+  border-radius: 10px;
 }
 
 .container-card:hover {
@@ -219,6 +220,10 @@ p {
   font-size: 0.9rem;
 }
 
+.headerInitial{
+  width: 100%;
+}
+
 .apply-Product {
   /* margin-top: 1rem; */
   width: 100%;
@@ -235,7 +240,7 @@ p {
 
 .btn-Apply {
   margin-top: 0.1rem;
-  width: 12rem;
+  width: 100%;
   height: 2.5rem;
   margin-right: 3px;
   background-color: #f6560a;
@@ -257,29 +262,46 @@ p {
 
 /* ---- STYLES FOR MODAL WINDOW ---- */
 
-.modalWindowFeatures {
-  width: 100%;
-  height: auto;
+.makeStyles-paper-1{
+  /* background-color: red !important; */
+  max-width: 100% !important;
+  max-height: 90% !important; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px !important;
+  box-sizing: border-box;
+}
+
+/* .modalWindowFeatures {
+  width: 90%;
+  max-height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .titleModalWindows {
   color: #f6560a;
   font-family: "Bebas Neue", cursive;
   font-size: 25px;
-  margin-left: 3.8rem;
+  letter-spacing: 1px;
+  box-sizing: border-box;
 }
 
 .imgModalWindow {
-  width: 30rem;
-  height: 30rem;
+  width: 60%;
+  min-width: 200px;
+  height: 60%;
+  min-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 2rem;
-  margin-top: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  box-sizing: border-box;
 }
 
 .pModalDescription {
@@ -296,12 +318,11 @@ p {
   background-color: #f6560a;
   border: none;
   border-radius: 0.5rem;
-  width: 5rem;
+  width: 80%;
   height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 27rem;
   font-weight: bold;
 }
 

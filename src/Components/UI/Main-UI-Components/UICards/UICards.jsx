@@ -115,7 +115,7 @@ export const UICards = ({
           </NavLink>
         </div>
       </div>
-      <div>
+      <div className="modal-window-products">
         <Modal open={open} onClose={handleClose}>
           {body}
         </Modal>
