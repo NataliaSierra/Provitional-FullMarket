@@ -117,12 +117,10 @@
 
 .main-products {
   width: 100%;
-  /* height: 100%; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   background-color: #dae4ed;
-  /* box-sizing: border-box; */
 }
 
 .main {
@@ -131,8 +129,8 @@
 }
 
 .container-card{
-  width: 20%;
-  min-width: 290px;
+  width: 5%;
+  min-width: 200px;
   height: 100%;
   margin: 2rem;
   background-color: #ffffff;
@@ -177,13 +175,6 @@ h1 {
   display: flex;
   align-items: center;
 }
-
-/* .body-Card {
-  width: 13rem;
-  height: 5rem;
-  margin-left: 5rem;
-  margin-top: 1rem;
-} */
 
 .body-Card {
   width: 100%;
