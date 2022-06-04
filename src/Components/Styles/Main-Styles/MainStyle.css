@@ -265,7 +265,7 @@ p {
 .makeStyles-paper-1{
   /* background-color: red !important; */
   max-width: 90% !important;
-  max-height: 85% !important; 
+  max-height: 85% !important;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -346,6 +346,8 @@ p {
   flex-direction: column;
 }
 
+
+/* ---- STYLES FOR MOVIL ---- */
 @media (max-width: 990px) {
   .makeStyles-paper-1{
     max-height: 80% !important;
@@ -359,8 +361,15 @@ p {
   }
 }
 
-@media (max-width: 411px) {
-  .makeStyles-paper-1{
-    padding-top: 10rem;
-  }
+  @media (max-width: 520px) {
+    .makeStyles-paper-1{
+      max-height: 90% !important;
+      padding: 0.2rem 0.2rem;
+    }
+  
+    .imgModalWindow {
+      width: 60%;
+      min-width: 180px;
+      height: 20%;
+    }
 }
