@@ -366,10 +366,4 @@ p {
       max-height: 90% !important;
       padding: 0.2rem 0.2rem;
     }
-  
-    .imgModalWindow {
-      width: 60%;
-      min-width: 180px;
-      height: 20%;
-    }
 }
